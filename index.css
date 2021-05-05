@@ -1,0 +1,100 @@
+#title {
+	background-color: #1597bb;
+}
+.profile-img {
+	position: relative;
+	left: 10%;
+}
+
+
+.bio {
+	display: inline-block;
+	text-align: left;
+	position: relative;
+	top: 150px;
+}
+
+#title h1 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 4rem;
+	color: white;
+}
+
+#title p {
+	color: white;
+	font-family: 'Literata', serif;
+}
+
+.hire-me {
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: 'Literata', serif;
+	font-weight: 45%;
+}
+
+#service {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#service img {
+	width: 100%;
+	height: 400px;
+}
+
+.feature-title {
+	text-align: center;
+}
+
+.feature-title h1 {
+	color: #f4592f;
+	font-size: 3.5rem;
+}
+
+.feature-title p {
+	font-size: 1.5rem;
+	font-family: serif;
+}
+
+.sky {
+	background-color: #129fd2;
+}
+
+/*.sky {
+	padding-left: 0px;
+	margin-right: 5px;
+	padding-right: 0px;
+}
+
+.green {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.purple {
+	margin-left: 5px;
+	padding-right: 0px;
+	padding-left: 0px;
+*/
+
+.green {
+	background-color: #00b8ab;	
+}
+
+.purple {
+	background-color: #364f6b;
+}
+
+.container {
+	margin-right: 120px;
+	margin-left: 120px;
+}
+
+h4 {
+	color: white;
+	font-family: 'Literata', serif;
+	margin-top: 10px;
+	margin-left: 10px;
+}
