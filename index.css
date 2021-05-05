@@ -122,7 +122,7 @@ h4 {
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 /* Style the social media icons with color, if you want */
@@ -153,4 +153,12 @@ h4 {
 .youtube {
   background: #bb0000;
   color: white;
+}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 900px) {
+  .icon-bar a {
+  	font-size: 3rem;
+  }
 }
