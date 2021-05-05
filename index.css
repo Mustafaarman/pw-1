@@ -3,7 +3,7 @@
 }
 .profile-img {
 	position: relative;
-	left: 10%;
+	left: 5%;
 }
 
 
@@ -46,6 +46,11 @@
 	text-align: center;
 }
 
+.con {
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
 .feature-title h1 {
 	color: #f4592f;
 	font-size: 3.5rem;
@@ -60,13 +65,14 @@
 	background-color: #129fd2;
 }
 
-/*.sky {
-	padding-left: 0px;
-	margin-right: 5px;
-	padding-right: 0px;
+.row div {
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
-.green {
+/*.green {
 	margin-left: 5px;
 	margin-right: 5px;
 	padding-right: 0px;
