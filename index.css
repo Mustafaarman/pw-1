@@ -157,7 +157,7 @@ h4 {
 
 
 /* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 900px) {
+@media (max-width: 450px) {
   .icon-bar a {
   	font-size: 3rem;
   	padding-left: 50px;
