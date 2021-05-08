@@ -1,3 +1,8 @@
+html, body {
+ 	width: 100%;
+ 	overflow-x: hidden;
+ }
+
 #title {
 	background-color: #1597bb;
 }
@@ -94,10 +99,10 @@
 	background-color: #364f6b;
 }
 
-.container {
+/*.container {
 	margin-right: 120px;
 	margin-left: 120px;
-}
+}*/
 
 h4 {
 	color: white;
@@ -157,19 +162,29 @@ h4 {
 
 
 /* On screens that are 600px or less, set the background color to olive */
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   .icon-bar a {
   	font-size: 2rem;
   }
 
 
   .profile-img {
-	position: static;
+	position: relative;
+	left: -20%;
+	top: -1%;
+	text-align: center;
    }
-
    .bio {
    	position: static;
    	text-align: center;
    }
+ #title {
+ 	text-align: center;
+ 	margin-left: 0px;
+ }
 
+ .btn {
+ 	margin-top: 0px;
+ 	margin-bottom: 30px;
+ }
 }
