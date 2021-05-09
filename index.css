@@ -72,6 +72,7 @@ html, body {
 
 .sky {
 	background-color: #129fd2;
+	height: 350;
 }
 
 .row div {
@@ -81,6 +82,36 @@ html, body {
 	padding-bottom: 2px;
 }
 
+#skills {
+	background-color: #1597bb;
+	text-align: center;
+	padding: 8% 5%;
+}
+
+.skill-name {
+	font-size: 2rem;
+	font-family: serif;
+	color: 11999e;
+}
+.icon {
+	font-size: 6rem;
+	color: white;
+}
+
+.icon:hover {
+	color: #f9ed69;
+}
+
+.skill {
+	text-align: center;
+}
+
+.circle {
+	margin: 20px;
+	padding: 20px 0px;
+	border-radius: 50%;
+	border: 2px dotted white;
+}
 /*.green {
 	margin-left: 5px;
 	margin-right: 5px;
@@ -94,12 +125,18 @@ html, body {
 	padding-left: 0px;
 */
 
+/*#service img {
+	z-index: 0;
+}*/
+
 .green {
-	background-color: #00b8ab;	
+	background-color: #00b8ab;
+	height: 350;
 }
 
 .purple {
 	background-color: #364f6b;
+	height: 350;
 }
 
 /*.container {
@@ -110,9 +147,12 @@ html, body {
 h4 {
 	color: white;
 	font-family: 'Literata', serif;
-	margin-top: 10px;
-	margin-left: 10px;
 }
+
+
+/*.top-left {
+    position: relative;
+    z-index: 1;*/
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
@@ -156,6 +196,11 @@ h4 {
 .linkedin {
   background: #007bb5;
   color: white;
+}
+
+.github {
+	background: black;
+	color: white;
 }
 
 .youtube {
