@@ -91,11 +91,13 @@ html, body {
 .skill-name {
 	font-size: 2rem;
 	font-family: serif;
-	color: 11999e;
+	color: white;
+	text-align: center;
 }
 .icon {
 	font-size: 6rem;
 	color: white;
+	text-align: center;
 }
 
 .icon:hover {
@@ -107,10 +109,10 @@ html, body {
 }
 
 .circle {
-	margin: 20px;
+	margin: 10px 30px;
 	padding: 20px 0px;
-	border-radius: 50%;
-	border: 2px dotted white;
+	border-radius: 45%;
+	border: 5px solid white;
 }
 /*.green {
 	margin-left: 5px;
