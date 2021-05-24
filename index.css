@@ -23,6 +23,7 @@ html, body {
 	left: 10%;
 }
 
+
 #title h1 {
 	font-family: 'Architects Daughter', cursive;
 	font-size: 4rem;
@@ -39,6 +40,11 @@ html, body {
 	padding-right: 15px;
 	font-family: 'Literata', serif;
 	font-weight: 45%;
+}
+
+.blink {
+      border-color: #a1547b;
+      border-width: 10px;
 }
 
 #service {
